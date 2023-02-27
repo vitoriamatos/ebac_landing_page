@@ -1,0 +1,165 @@
+.navbar{
+    background-color: #ffffff;
+    box-shadow: 0 1px 4px rgb(0 0 0 / 10%);
+    color: #FF3131;
+    
+}
+
+h1.navbar-brand:hover{
+    color: #FF3131;
+}
+.navbar h1, .nav.nav-pills .nav-link, .nav.nav-pills .nav-link:hover {
+    color: #FF3131;
+}
+
+.nav.nav-pills .nav-link.active { 
+    background-color:#ff3131!important;
+    color: #ffffff;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.custom-toggler.navbar-toggler {
+    background-color:#ff3131!important;
+}
+.custom-toggler .navbar-toggler-icon{
+   
+    background-image: url(
+        "data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='RGBA( 255, 255, 255, 1 )' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.text-colored{
+    color: #FF3131;
+}
+.navbar-toggler{
+    background-color: #fff!important;
+}
+
+.slide-img{
+    height: 500px;
+    width: 100%;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+.payment{
+    width: 80%;
+    border-radius: 10px;
+}
+.nav-service-item{
+    color: #000000!important;
+}
+
+.text-start.nav-link.text-colored.nav-service-item.active{
+    color: #ffffff!important;
+    background-color: #FF3131;
+}
+
+
+#treatments{
+    background-color: #e5b09c;
+}
+
+#treatments h2{
+    color: #fff;
+}
+.description{
+
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+    padding: 20px 50px 20px!important;
+}
+
+.description li i{
+    margin-right: 10px;
+}
+
+.btn-payment{
+    background-color: #FF3131;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    color: #fff;
+}
+
+
+.btn-payment:hover{
+    background-color: #ae2121;
+}
+
+#services img{
+    border-radius: 20px;
+}
+
+#contact ul{
+    display: flex!important;
+    flex-direction: row;
+}
+
+#contact ul i{
+   margin-right: 15px;
+   color: #000000;
+}
+
+.footer{
+    background-color: #ffffff;
+    box-shadow: 4px 0 14px rgb(0 0 0 / 10%);
+    color: #000000;
+}
+
+.footer h6{
+    color: #585555;
+}
+
+
+@media screen and (max-width: 767px) {
+
+    .slide-img{
+        height: 150px;
+        width: 100%;
+    }
+
+    #about h2{
+        margin-top:20px!important;
+    }
+    .payment{
+        padding-bottom: 20px;
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .description{
+
+        border-radius: 0;
+        margin-bottom: 30px;
+    }
+
+    .social-media,.addres{
+        margin-top: 30px!important;
+    }
+    
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .slide-img{
+        height: 250px;
+        width: 100%;
+    }
+    img.payment{
+        width: 100%;
+    }
+    .description{
+
+       padding: 10px 30px 10px!important;
+    }
+
+}

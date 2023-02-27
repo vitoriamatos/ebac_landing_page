@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+    <header class="navbar navbar-expand-lg sticky-top p-4" id="header">
+        <div class="container">
+            <h1 class="navbar-brand">life derma</h1>
+            <button class="navbar-toggler custom-toggler" data-bs-toggle="collapse" data-bs-target="#menu-nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <nav class="navbar-collapse collapse justify-content-end" id="menu-nav">
+                <ul class="nav nav-pills d-block d-md-block d-lg-flex">
+                    <li class="nav-item active">
+                        <a href="#about" class="nav-link">sobre nós</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#treatments" class="nav-link">tratamento</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">procedimentos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contact" class="nav-link">contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="header">
+        <section id="about">
+            <div class="carousel slide" data-bs-ride="carousel" id="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="3000">
+                        <img class="slide-img" src="img/slide1.png" alt="slide 1">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="slide-img" src="img/slide2.png" alt="slide 2">
+                    </div>
+                    <div class="carousel-item" data-bs-interval="3000">
+                        <img class="slide-img" src="img/slide3.png" alt="slide 3">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carousel" class="active" data-bs-slide-to="0"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+                </div>
+            </div>
+
+            <div class="pt-5 pb-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-5">
+                            <img src="img/Clinica-Estetica.png" class="d-block w-100 rounded" alt="">
+                        </div>
+
+                        <div class="col-md-7">
+                            <h2 class="text-colored">Clínica de dermatologia e estética</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos alias optio
+                                rerum
+                                aperiam facere suscipit quaerat.
+                                Tempore debitis error consequuntur aut asperiores assumenda, alias quidem harum?
+                                Eveniet,
+                                quo
+                                porro!</p>
+                            <h2 class="text-colored">Nossa Missão</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos alias optio
+                                rerum
+                                aperiam facere suscipit quaerat.
+                                Tempore debitis error consequuntur aut asperiores assumenda, alias quidem harum?
+                                Eveniet,
+                                quo
+                                porro!</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="treatments" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center pt-5 pb-5">Agora ficou mais fácil fazer um tratamento</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <img class="payment" src="img/Carner.png" alt="">
+
+                    </div>
+                    <div class="col-md-6 col-lg-4 description">
+                        <img src="" alt="">
+                        <h5 class="section-title text-colored">Tratamentos com pagamentos facilitados:</h5>
+                        <ul>
+                            <li><i class="bi bi-check2-circle"></i>Harmonização Facial</li>
+                            <li><i class="bi bi-check2-circle"></i>Depilação a Laser</li>
+                            <li><i class="bi bi-check2-circle"></i>Estética Facial</li>
+                            <li><i class="bi bi-check2-circle"></i>Estética Corporal</li>
+                            <li><i class="bi bi-check2-circle"></i>Estética Capilar</li>
+                        </ul>
+
+                        <button type="button" class="btn-payment">Agendar avaliação gratuita</button>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="services" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center text-colored">serviços</h2>
+                </div>
+
+                <div class="row pt-5">
+                    <aside class="col-md-2">
+                        <nav class="nav nav-pills flex-column nav-service">
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#face"
+                                class="text-start nav-link text-colored nav-service-item active">Estética
+                                facial</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#body"
+                                class="text-start nav-link text-colored nav-service-item">Estética
+                                corporal</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#hair"
+                                class="text-start nav-link text-colored nav-service-item">Estética
+                                capilar</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#derma"
+                                class="text-start nav-link text-colored nav-service-item">Consultas</button>
+                        </nav>
+                    </aside>
+                    <div class="col-md-10">
+                        <div class="tab-content">
+                            <div class="tab-pane active" id="face">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img class="d-block w-100" src="img/harmonizacao-facial.jpg" alt="service1" />
+                                        <h5 class="text-colored fw-bold mt-2">Harmonização facial</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos
+                                            alias optio
+                                            rerum
+                                            aperiam facere suscipit quaerat.
+                                            Tempore debitis error consequuntur aut asperiores assumenda, alias quidem
+                                            harum?
+                                            Eveniet,
+                                            quo
+                                            porro</p>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <img class="d-block w-100" src="img/Peeling-facial.jpg" alt="service1" />
+                                        <h5 class="text-colored fw-bold mt-2">Peeling facial</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos
+                                            alias optio
+                                            rerum
+                                            aperiam facere suscipit quaerat.
+                                            Tempore debitis error consequuntur aut asperiores assumenda, alias quidem
+                                            harum?
+                                            Eveniet,
+                                            quo
+                                            porro</p>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <img class="d-block w-100" src="img/Microagulhamento-1.jpg" alt="service1" />
+                                        <h5 class="text-colored fw-bold mt-2">Microagulhamento</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos
+                                            alias optio
+                                            rerum
+                                            aperiam facere suscipit quaerat.
+                                            Tempore debitis error consequuntur aut asperiores assumenda, alias quidem
+                                            harum?
+                                            Eveniet,
+                                            quo
+                                            porro</p>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <img class="d-block w-100" src="img/Limpeza-de-pele.jpg" alt="service1" />
+                                        <h5 class="text-colored fw-bold mt-2">Limpeza de pele</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos
+                                            alias optio
+                                            rerum
+                                            aperiam facere suscipit quaerat.
+                                            Tempore debitis error consequuntur aut asperiores assumenda, alias quidem
+                                            harum?
+                                            Eveniet,
+                                            quo
+                                            porro</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="body">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img class="d-block w-100" src="img/massagem-modeladora.jpg" alt="service1" />
+                                        <h5 class="text-colored fw-bold mt-2">Massagem Modeladora</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos
+                                            alias optio
+                                            rerum
+                                            aperiam facere suscipit quaerat.
+                                            Tempore debitis error consequuntur aut asperiores assumenda, alias quidem
+                                            harum?
+                                            Eveniet,
+                                            quo
+                                            porro</p>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <img class="d-block w-100" src="img/lipo-enzimatica.jpg" alt="service1" />
+                                        <h5 class="text-colored fw-bold mt-2">Lipo enzimática</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos
+                                            alias optio
+                                            rerum
+                                            aperiam facere suscipit quaerat.
+                                            Tempore debitis error consequuntur aut asperiores assumenda, alias quidem
+                                            harum?
+                                            Eveniet,
+                                            quo
+                                            porro</p>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <img class="d-block w-100" src="img/secagem-de-vasinhos.jpg" alt="service1" />
+                                        <h5 class="text-colored fw-bold mt-2">Secagem de vasinhos</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos
+                                            alias optio
+                                            rerum
+                                            aperiam facere suscipit quaerat.
+                                            Tempore debitis error consequuntur aut asperiores assumenda, alias quidem
+                                            harum?
+                                            Eveniet,
+                                            quo
+                                            porro</p>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <img class="d-block w-100" src="img/acelerador-metabolico.png" alt="service1" />
+                                        <h5 class="text-colored fw-bold mt-2">Acelerador metabólico</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos
+                                            alias optio
+                                            rerum
+                                            aperiam facere suscipit quaerat.
+                                            Tempore debitis error consequuntur aut asperiores assumenda, alias quidem
+                                            harum?
+                                            Eveniet,
+                                            quo
+                                            porro</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="hair">
+                                <div class="row">
+                                    <div class="col-md-5">
+                                        <img class="d-block w-100" src="img/Peeling-capilar.jpg" alt="service1" />
+                                        <h5 class="text-colored fw-bold mt-2">Peeling capilar</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos
+                                            alias optio
+                                            rerum
+                                            aperiam facere suscipit quaerat.
+                                            Tempore debitis error consequuntur aut asperiores assumenda, alias quidem
+                                            harum?
+                                            Eveniet,
+                                            quo
+                                            porro</p>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <img class="d-block w-100" src="img/Massagem-capilar.jpg" alt="service1" />
+                                        <h5 class="text-colored fw-bold mt-2">Peeling facial</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos
+                                            alias optio
+                                            rerum
+                                            aperiam facere suscipit quaerat.
+                                            Tempore debitis error consequuntur aut asperiores assumenda, alias quidem
+                                            harum?
+                                            Eveniet,
+                                            quo
+                                            porro</p>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <img class="d-block w-100" src="img/Fotobioestimulacao.jpg" alt="service1" />
+                                        <h5 class="text-colored fw-bold mt-2">Fotobioestimulação</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos
+                                            alias optio
+                                            rerum
+                                            aperiam facere suscipit quaerat.
+                                            Tempore debitis error consequuntur aut asperiores assumenda, alias quidem
+                                            harum?
+                                            Eveniet,
+                                            quo
+                                            porro</p>
+                                    </div>
+                                    <div class="col-md-5">
+                                        <img class="d-block w-100" src="img/Mascara-de-argila.jpg" alt="service1" />
+                                        <h5 class="text-colored fw-bold mt-2">Máscara de argila</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo dignissimos
+                                            alias optio
+                                            rerum
+                                            aperiam facere suscipit quaerat.
+                                            Tempore debitis error consequuntur aut asperiores assumenda, alias quidem
+                                            harum?
+                                            Eveniet,
+                                            quo
+                                            porro</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="derma">
+                                <div class="row">
+                                    <div class="col-md-10">
+                                        <img class="d-block w-50" src="img/dermatologia.jpg" alt="service1" />
+                                        <h5 class="text-colored fw-bold mt-2">Agende uma consulta</h5>
+                                        <p>
+                                            Contamos com uma excelente equipe de médicos dermatologistas.
+                                        </p>
+                                        <p>
+                                            Entre em contato para agendar sua consulta.
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center text-colored"> Fale conosco </h2>
+                </div>
+                <div class="row pt-5">
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mb-3">
+                                <label for="name" class="form-label fw-bold text-colored">Seu Nome</label>
+                                <input type="text" id="name" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label fw-bold text-colored">Seu e-mail</label>
+                                <input type="email" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="message" class="form-label fw-bold text-colored">Sua mensagem</label>
+                                <textarea class="form-control" id="message" required></textarea>
+                            </div>
+                            <div class="col-md-7">
+                                <button type="submit" class="btn-payment">Enviar</button>
+                            </div>
+
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row social-media">
+                            <h3 class="section-title fs-4 text-colored">Redes sociais</h3>
+                            <ul>
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-facebook"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-instagram"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-4">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row addres">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>
+                                Rua Teste Exemplo nº145, Bairro Bootstrap - Recife - PE
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <footer class="text-center text-white footer">
+        <div class="container p-4"></div>
+        <div class="text-center p-3">
+            <h6>© life derma - 2023 Copyright:</h6>
+        </div>
+    </footer>
+
+</body>
+
+</html>
